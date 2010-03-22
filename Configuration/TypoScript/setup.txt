@@ -1,0 +1,21 @@
+
+plugin.tx_maritlinklist{
+	settings {
+	}
+	persistence {
+		storagePid = 10
+	}
+	view {
+		templateRootPath = EXT:marit_linklist/Resources/Private/Templates/
+		partialRootPath = EXT:marit_linklist/Resources/Private/Partials/
+		layoutRootPath = EXT:marit_linklist/Resources/Private/Layouts/
+	}
+}
+
+
+plugin.tx_maritlinklist._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+)

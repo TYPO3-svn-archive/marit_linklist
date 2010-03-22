@@ -1,0 +1,9 @@
+
+<f:renderFlashMessages class="tx-extbase-flash-message" />
+				<f:link.action action="populate">Create example data</f:link.action>
+	<ul>
+<f:for each="{links}" as="link">
+	<li>{link.url}</li>
+</f:for>
+</ul>
+				<strong><f:link.action action="new">Create your first link</f:link.action></strong><br />

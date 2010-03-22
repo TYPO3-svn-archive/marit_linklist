@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'marit_linklist'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_maritlinklist_domain_model_link">Link</label>
+			<label index="tx_maritlinklist_domain_model_link.url">Url</label>
+			<label index="tx_maritlinklist_domain_model_link.title">Title</label>
+			<label index="tx_maritlinklist_domain_model_link.description">Description</label>
+			<label index="tx_maritlinklist_domain_model_link.keyword">Keyword</label>
+		</languageKey>
+	</data>
+</T3locallang>

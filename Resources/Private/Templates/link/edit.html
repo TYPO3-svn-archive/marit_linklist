@@ -1,0 +1,45 @@
+
+sdgfreg
+
+
+<h1>Edit link</h1>
+
+<!-- TODO: make this a partial -->
+<f:form.errors for="link">
+	<div class="error">
+		{error.message}
+		<f:if condition="{error.propertyName}">
+			<p>
+				<strong>{error.propertyName}</strong>:
+				<f:for each="{error.errors}" as="errorDetail">
+					{errorDetail.message}
+				</f:for>
+			</p>
+		</f:if>
+	</div>
+</f:form.errors>
+
+<f:form method="post" action="update" name="link" object="{link}">
+
+	
+	<label for="title"><f:translate key="tx_maritlinklist_domain_model_link.url" /></label><br />
+	<f:form.textbox property="url" /><br />
+	
+
+	
+	<label for="title"><f:translate key="tx_maritlinklist_domain_model_link.title" /></label><br />
+	<f:form.textbox property="title" /><br />
+	
+
+	
+	<label for="title"><f:translate key="tx_maritlinklist_domain_model_link.description" /></label><br />
+	<f:form.textbox property="description" /><br />
+	
+
+	
+	<label for="title"><f:translate key="tx_maritlinklist_domain_model_link.keyword" /></label><br />
+	<f:form.textbox property="keyword" /><br />
+	
+
+<f:form.submit value="Edit" />
+</f:form>

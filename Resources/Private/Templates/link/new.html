@@ -1,0 +1,13 @@
+<f:render partial="formErrors" arguments="{for: 'populateAction'}" />
+	
+	<f:form method="post" controller="link" action="populateAction" name="populateAction">
+		
+		<label for="url">URL <span class="required">(required)</span></label><br />
+		<f:form.textbox property="url" /><br />
+		<label for="title">Description (max. 150 chars)</label><br />
+		<f:form.textarea property="title" rows="8" cols="46" /><br />
+		<label for="keywords">Keywords (max. 150 chars)</label><br />
+		<f:form.textarea property="keywords" rows="8" cols="46" /><br />
+		
+		<f:form.submit class="submit" value="Submit"/>
+	</f:form>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the Extbase Linklist extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_maritlinklist_domain_model_link">link</label>
+			<label index="tx_maritlinklist_domain_model_link.url">url</label>
+			<label index="tx_maritlinklist_domain_model_link.title">title</label>
+			<label index="tx_maritlinklist_domain_model_link.description">description</label>
+			<label index="tx_maritlinklist_domain_model_link.keyword">keyword</label>
+		</languageKey>
+	</data>
+</T3locallang>
